@@ -76,7 +76,7 @@ https://www.figma.com/file/nmOOVi5ZB5wqwQ2xU3XXHa/impooootanse?node-id=0%3A1
 | Previous attempts | L | 3hrs|  |  |
 | Input validation | H | 3hrs|  |  |
 | Highlighting | M | 2.5hrs|  |  |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Total | H | 30hrs| 5hrs | 5hrs |
 
 ## Code Snippet
 
