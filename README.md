@@ -1,21 +1,26 @@
-# not-sure-what-yet
 # Project Overview
 
 ## Project Name
 
-The name of your project.
+DisPliot
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+In this project, its going to be a typing test that pulls characters, phrases, locations, items, and different things that are associated from the marvel universe and display them inside of a text box that you'll see. There will be a time limit of one minute and the person has to type as many words as they can within the minute and they will be notified on how many words per minute they can type. 
 
 ## API and Data Sample
 
 Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
 
+Marvel API
+
+
+
 ## Wireframes
 
 Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
+
+https://www.figma.com/file/9CkN3BfpAExPernYFYdT5H/Untitled?node-id=0%3A1
 
 ### MVP/PostMVP
 
@@ -24,15 +29,20 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 #### MVP 
 *These are examples only. Replace with your own MVP features.*
 
-- Find and use external api 
-- Render data on page 
-- Allow user to choose favorites 
+- Access the marvel api and be able to use different sources for words.
+- Input the words into a scrambler to randomize them and put them back into a container.  
+- create the timer for the test
+- make a restart function that allows the user to restart the game
+- create a results function that returns the words typed within that minute. 
+- create basic layout of text box html
+- create result box
+- create welcome
 
 #### PostMVP  
 *These are examples only. Replace with your own Post-MVP features.*
 
-- Add second API
-- Use local storage to save user favorites
+- Add second API(Maybe)
+- random information about marvel at the bottom near result. 
 
 ## Project Schedule
 
