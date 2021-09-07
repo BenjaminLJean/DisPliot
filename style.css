@@ -1,0 +1,130 @@
+body {
+  background-image: url(https://wallpaperaccess.com/full/1536061.jpg);
+  color: black;
+  text-align: center;
+  justify-content: center;
+  }
+  
+  .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  
+  .heading {
+  font-size: 100px;
+  margin-bottom: 125px;
+  color: black;
+  }
+  
+  .header {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  }
+  
+  .timer{
+    background-color: #AC4EF1;
+    height: 60px;
+    width: 70px;
+    margin: 8px;
+    padding: 12px;
+    border-radius: 20%;
+    box-shadow: lightgreen 5px 8px 5px;
+  }
+
+  .errors{
+    background-color: #AC4EF1;
+    height: 60px;
+    width: 70px;
+    margin: 8px;
+    padding: 12px;
+    border-radius: 20%;
+    box-shadow: lightgreen 5px 8px 5px;
+  }
+  
+  .accuracy{
+    background-color: #AC4EF1;
+    height: 60px;
+    width: 70px;
+    margin: 8px;
+    padding: 12px;
+    border-radius: 20%;
+    box-shadow: lightgreen 5px 8px 5px;
+  }
+
+  .wpm{
+    background-color: #AC4EF1;
+    height: 60px;
+    width: 70px;
+    margin: 8px;
+    padding: 12px;
+    border-radius: 20%;
+    box-shadow: lightgreen 5px 8px 5px;
+  }
+
+  
+  .header_text {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  }
+  
+  
+  .quote {
+    background-color: #AC4EF1;
+    font-size: 36px;
+    margin: 10px;
+    padding: 25px;
+    box-shadow: lightgreen 5px 8px 5px;
+    border-radius: 15%;
+  }
+  
+  .input_area {
+    background-color: lightgray;
+    height: 80px;
+    width: 40%;
+    font-size: 32px;
+    font-weight: 600;
+    margin: 15px;
+    padding: 20px;
+    border: 0px;
+    box-shadow: lightgreen 5px 8px 5px;
+  }
+  
+  .current_errors{
+    font-size: 40px;
+  }
+
+  .current_wpm{
+    font-size: 40px;
+  }
+  
+  .current_time{
+    font-size: 40px;
+  }
+
+  .current_accuracy{
+    font-size: 40px;
+  }
+  
+  .restart_btn {
+  background-color: #306735;
+  font-size: 16px;
+  padding: 15px;
+  padding-top: 20px;
+  border: 0px;
+  box-shadow: red 5px 8px 5px;
+  border-radius: 25%;
+  }
+  
+  .incorrect_char {
+  color: red;
+  text-decoration: underline;
+  font-weight: bold;
+  }
+  
+  .correct_char {
+  color: darkgreen;
+  }
+  
