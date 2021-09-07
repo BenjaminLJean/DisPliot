@@ -148,7 +148,7 @@ function processCurrentText() {
 
 ## Change Log
  Use this section to document what changes were made and the reasoning behind those changes.  
-
+```
 async function getPokemonName() {
   try {
     const res = await axios.get(`${url}${randomNum()}`);
@@ -171,3 +171,4 @@ async function getPokemonType() {
   }
 
 }
+```
