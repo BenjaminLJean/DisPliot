@@ -96,13 +96,13 @@ https://www.figma.com/file/9CkN3BfpAExPernYFYdT5H/Untitled?node-id=0%3A1
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|August 30| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|August 30| Project Approval | Incomplete
-|August 31| Creating the test (JavaScript) | Incomplete
-|September 1| Styling the HTML and a bit of css | Incomplete
-|September 2| Getting the flexcode nice/dandy | Incomplete
-|September 2| MVP and PostMVP recheck | Incomplete
-|September 3| Presentations | Incomplete
+|August 30| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
+|August 30| Project Approval | Complete
+|August 31| Creating the test (JavaScript) | Complete
+|September 1| Styling the HTML and a bit of css | Complete
+|September 2| Getting the flexcode nice/dandy | Complete
+|September 2| MVP and PostMVP recheck | Complete
+|September 3| Presentations | Complete
 
 ## Priority Matrix
 
@@ -112,31 +112,62 @@ https://www.figma.com/file/nmOOVi5ZB5wqwQ2xU3XXHa/impooootanse?node-id=0%3A1
 
 ## Timeframes
 
-| Component | Priority | Estimated Time | Time Invested | Actual Time |
+| Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Creating randomizer | H | 2hrs|  |  |
-| Creating text box | H | 3hrs|  |  |
-| Making Timer | H | 1hrs|  |  |
-| Returning results | H | 2hrs|  |  |
-| Creating reset | H | 2.5hrs|  |  |
-| CSS/Flexbox | H | 3hrs|  |  |
-| HTML | H | 2.5hrs|  |  |t
-| Welcome/Introduction | M | 1hrs|  |  |
-| Adding random facts | L | 2.5hrs|  |  |
-| Previous attempts | L | 3hrs|  |  |
-| Input validation | H | 3hrs|  |  |
-| Highlighting | M | 2.5hrs|  |  |
-| Total | H | 30hrs| 5hrs | 5hrs |
+| Creating randomizer | H | 2hrs| 3hrs |
+| Creating text box | H | 3hrs| 3hrs |
+| Making Timer | H | 1hrs| 2.5hrs |
+| Returning results | H | 2hrs| 3hrs |
+| Creating reset | H | 2.5hrs| 3hrs |
+| CSS/Flexbox | H | 3hrs| 4hrs |
+| HTML | H | 2.5hrs| 1.5hrs |
+| Welcome/Introduction | M | 1hrs| 0.5hrs |
+| Adding random facts | L | 2.5hrs| 0hrs |
+| Previous attempts | L | 3hrs| 0hrs |
+| Input validation | H | 3hrs| 2hrs |
+| Highlighting | M | 2.5hrs| 3.5hrs |
+| Total | H | 30hrs| 26hrs |
 
 ## Code Snippet
 
 Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
+function processCurrentText() {
+
+  current_input = input_area.value;
+  current_input_array = current_input.split("");
+  characterTyped++;
+  errors = 0;
+  quoteSpanArray = quote_text.querySelectorAll("span");
+  quoteSpanArray.forEach((character, index) => {
+
+   ...
 }
 ```
 
 ## Change Log
  Use this section to document what changes were made and the reasoning behind those changes.  
+
+async function getPokemonName() {
+  try {
+    const res = await axios.get(`${url}${randomNum()}`);
+    console.log(res.data.name);
+    quotes_array.push(res.data.name);
+    quotes_array.push(res.data.types[0].type.name)
+  } catch (error) {
+    console.log(error);
+  }
+
+}
+
+async function getPokemonType() {
+  try {
+    const res = await axios.get(`${url}${randomNum()}`);
+    console.log(res.data.types[0].type.name);
+    quotes_array.push(res.data.types[0].type.name)
+  } catch (error) {
+    console.log(error);
+  }
+
+}
